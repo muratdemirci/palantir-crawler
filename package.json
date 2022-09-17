@@ -1,0 +1,28 @@
+{
+  "name": "palantir-crawler",
+  "version": "1.0.0",
+  "description": "tweet crawler for palantir",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "SET NODE_ENV=production && node server",
+    "dev": "ts-node-dev --respawn --transpile-only -r tsconfig-paths/register src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muratdemirci/palantir-crawler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muratdemirci/palantir-crawler/issues"
+  },
+  "homepage": "https://github.com/muratdemirci/palantir-crawler#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.2",
+    "node-schedule": "^2.1.0",
+    "nodemon": "^2.0.20",
+    "winston": "^3.8.2"
+  }
+}
