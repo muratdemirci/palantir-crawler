@@ -2,6 +2,16 @@
 
 Twitter crawler service for palantir sentiment analysis project. Its communicating palantir's [main API](#https://github.com/muratdemirci/palantir-be)
 
+## Libraries and tools used
+
+- [PostgreSQL](https://www.postgresql.org/)
+- [Sequelize](https://www.npmjs.com/package/sequelize)
+- [Dotenv](https://www.npmjs.com/package/dotenv)
+- [Winston](https://github.com/winstonjs/winston)
+- [Twitter API SDK](https://www.npmjs.com/package/twitter-api-sdk)
+- [ts-node-dev](https://www.npmjs.com/package/ts-node-dev)
+- [node-schedule](https://www.npmjs.com/package/node-schedule)
+- [axios](https://www.npmjs.com/package/axios)
 ## Table of content
 
 - [Installation](#installation)
