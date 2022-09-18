@@ -10,18 +10,8 @@ let accounts: any = fs.readFileSync(
 accounts = accounts.toString().split("\n");
 
 const testThisShit = async (tokenCount: number, startTime: Date) => {
-  const currentDate = new Date();
-  let now_utc = Date.UTC(
-    currentDate.getUTCFullYear(),
-    currentDate.getUTCMonth(),
-    currentDate.getUTCDate(),
-    currentDate.getUTCHours(),
-    currentDate.getUTCMinutes(),
-    currentDate.getUTCSeconds()
-  );
   let URI = "";
   let query = "";
-  let nextoken = "";
   //&start_time=${startTime.toISOString()}&end_time=${currentDate.toISOString()}
   logger.info("lets crawl twitter");
   try {
