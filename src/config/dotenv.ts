@@ -12,3 +12,5 @@ export const DB_PORT:number = parseInt(process.env.DB_PORT!);
 export const DB_USER:string = process.env.DB_USER!;
 export const DB_PASS:string = process.env.DB_PASS!;
 export const TOKENS:string[] = process.env.BEARER_TOKENS!.split(',')
+export const START_TIME:number = parseInt(process.env.MS_FROM_NOW!);
+export const DAILY_MS:number = parseInt(process.env.DAILY_MS!);
