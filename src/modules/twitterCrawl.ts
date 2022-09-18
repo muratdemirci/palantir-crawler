@@ -19,7 +19,7 @@ export const crawler = async (tokenCount: number, startTime:Date) => {
       let query = `(from:${element}) -giveaway -? -filter:retweets -filter:mentions`;
       const searchResult = (
         await axios.get(
-          `https://api.twitter.com/2/tweets/search/recent?query=${query}&max_results=500&${nextoken}&tweet.fields=author_id,created_at,id,text,public_metrics`,
+          `https://api.twitter.com/2/tweets/search/recent?query=${query}&max_results=500&${nextoken}&start_time=${startTime.toISOString()}&end_time=${currentDate.toISOString()}&tweet.fields=author_id,created_at,id,text,public_metrics`,
           { headers: { Authorization: `Bearer ${TOKENS[tokenCount]}` } }
         )
       ).data;
