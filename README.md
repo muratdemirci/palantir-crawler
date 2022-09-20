@@ -121,3 +121,10 @@ However, you should note that it might make the crawling slightly slower.
 Copyright (c) 2010-2018 Yasser Ganjisaffar
 
 Published under [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0), see LICENSE
+
+### About this project
+
+Palantir is a micro-saas project which is analyses tweets of crypto influencers to predict the direction of the market.  
+This project was made for [Teknasyon Hackathon '22 - Yüzük Kardeşliği](https://teknasyon.com/tech/hackathon22/#/).  
+We took 2nd place among 13 teams.  
+![mordor idman yurdu :)](https://raw.githubusercontent.com/muratdemirci/palantir-be/dio/hackathonwin.jpeg "mordor idman yurdu :))")
